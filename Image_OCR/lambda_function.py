@@ -1,22 +1,22 @@
-import boto3
-import json
-import csv
-import io
-import zipfile
-import os
-import urllib.request
-import urllib.parse
-import email
-import base64
-import hashlib
-import re
-from datetime import datetime
-from PyPDF2 import PdfReader
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
-# Removed PIL import - not needed for OpenAI Vision API
+# import boto3
+# import json
+# import csv
+# import io
+# import zipfile
+# import os
+# import urllib.request
+# import urllib.parse
+# import email
+# import base64
+# import hashlibgit 
+# import re
+# from datetime import datetime
+# from PyPDF2 import PdfReader
+# from email.mime.multipart import MIMEMultipart
+# from email.mime.text import MIMEText
+# from email.mime.base import MIMEBase
+# from email import encoders
+# # Removed PIL import - not needed for OpenAI Vision API
 
 # Initialize AWS clients
 s3 = boto3.client('s3')
